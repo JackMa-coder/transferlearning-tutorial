@@ -7,7 +7,7 @@
 
 值得注意的是，就目前的研究成果来说，迁移学习领域的理论工作非常匮乏。我们在这里仅回答一个问题：为什么数据分布不同的两个领域之间，知识可以进行迁移？或者说，到底达到什么样的误差范围，我们才认为知识可以进行迁移？
 
-加拿大滑铁卢大学的Ben-David等人从2007年开始，连续地对迁移学习的理论进行探讨。具体的一些文章可以见[这里](https://github.com/jindongwang/transferlearning#3theory-and-survey-%E7%90%86%E8%AE%BA%E4%B8%8E%E7%BB%BC%E8%BF%B0)在文中，作者将此称之为“Learning from different domains”。在三篇文章也成为了迁移学习理论方面的经典文章。文章主要回答的问题就是：在怎样的误差范围内，从不同领域进行学习是可行的？
+加拿大滑铁卢大学的Ben-David等人从2007年开始，连续地对迁移学习的理论进行探讨。具体的一些文章可以见[这里](https://github.com/jindongwang/transferlearning#3theory-and-survey-%E7%90%86%E8%AE%BA%E4%B8%8E%E7%BB%BC%E8%BF%B0)在文中，作者将此称之为“Learning from different domains”。这三篇文章也成为了迁移学习理论方面的经典文章。文章主要回答的问题就是：在怎样的误差范围内，从不同领域进行学习是可行的？
 
 **学习误差：** 给定两个领域$$\mathcal{D}_s,\mathcal{D}_t$$，$$X$$是定义在它们之上的数据，一个假设类$$\mathcal{H}$$。则两个领域$$\mathcal{D}_s,\mathcal{D}_t$$之间的$$\mathcal{H}$$-divergence被定义为
 
